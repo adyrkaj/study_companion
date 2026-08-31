@@ -1,14 +1,8 @@
-# 📚 Study Companion Telegram Bot
+# Telegram Study Bot (`Study_companion`)
 
-An interactive Telegram Bot designed to help students organize study schedules, manage notes, review flashcard quizzes, track exam countdowns, and run focus timers—with full bilingual support (English & Albanian).
+An automated study assistant Telegram bot built with Python. It helps students track notes, schedules, flashcards, upcoming exams, and Pomodoro study timers with isolated per-user JSON storage. It also supports Albanian & English based on the users choice!
 
-## ✨ Features
-* 📝 **Notes Manager:** Create, view, and delete study notes stored persistently in JSON.
-* 📅 **Weekly Schedule:** Input and view day-by-day class timetables.
-* 🃏 **Flashcards & Quiz Mode:** Add custom study questions and test knowledge with instant right/wrong grading.
-* ⏳ **Exam Countdowns:** Track remaining days until upcoming exams or project deadlines.
-* ⏱️ **Study Timer:** Run a 25-minute focus timer with break notifications and live cancellation (`stop`).
-* 🌐 **Bilingual Support:** Seamless toggling between English and Albanian.
+---
 
 ## Requirements
 - Python 3.10 or newer (Python 3.11 is recommended).
