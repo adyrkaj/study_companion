@@ -1,0 +1,34 @@
+{
+    "123456789": {
+        "lang": "en",
+        "notes": [
+            {
+                "name": "Biology review",
+                "text": "Review cell structure and memorize the main organelles."
+            }
+        ],
+        "schedule": {
+            "Monday": "09:00 Biology",
+            "Tuesday": "11:00 Mathematics",
+            "Wednesday": null,
+            "Thursday": "10:00 History",
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "flashcards": [
+            {
+                "q": "What is the powerhouse of the cell?",
+                "a": "mitochondria"
+            }
+        ],
+        "exams": [
+            {
+                "name": "Biology exam",
+                "days": "14"
+            }
+        ],
+        "awaiting": null,
+        "temp_data": {}
+    }
+}
