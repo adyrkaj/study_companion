@@ -1,0 +1,36 @@
+{
+    "7307016842": {
+        "lang": "en",
+        "notes": [],
+        "schedule": {
+            "Monday": null,
+            "Tuesday": null,
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "flashcards": [
+            {
+                "q": "Si behet kjo?",
+                "a": "32"
+            }
+        ],
+        "exams": [
+            {
+                "name": "Gjeografi",
+                "days": "6 dite"
+            },
+            {
+                "name": "gjeo",
+                "days": "6"
+            }
+        ],
+        "awaiting": null,
+        "temp_data": {
+            "exam_name": "gjeo",
+            "card_q": "Si behet kjo?"
+        }
+    }
+}
