@@ -1,16 +1,35 @@
-# 📚 Study Companion Telegram Bot
+# Telegram Study Bot (`Study_companion`)
 
-An interactive Telegram Bot designed to help students organize study schedules, manage notes, review flashcard quizzes, track exam countdowns, and run focus timers—with full bilingual support (English & Albanian).
+An automated study assistant Telegram bot built with Python. It helps students track notes, schedules, flashcards, upcoming exams, and Pomodoro study timers with isolated per-user JSON storage. It also supports Albanian & English based on the users choice!
 
-## ✨ Features
-* 📝 **Notes Manager:** Create, view, and delete study notes stored persistently in JSON.
-* 📅 **Weekly Schedule:** Input and view day-by-day class timetables.
-* 🃏 **Flashcards & Quiz Mode:** Add custom study questions and test knowledge with instant right/wrong grading.
-* ⏳ **Exam Countdowns:** Track remaining days until upcoming exams or project deadlines.
-* ⏱️ **Study Timer:** Run a 25-minute focus timer with break notifications and live cancellation (`stop`).
-* 🌐 **Bilingual Support:** Seamless toggling between English and Albanian.
+---
 
-## 🚀 Setup & Run
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git)
+## Prerequisites
+
+Before starting, ensure you have the following installed on your machine:
+* **Python 3.10+** (Check version with `python --version` or `python3 --version`)
+* **Git**
+* A valid **Telegram Bot Token** (Obtained from [@BotFather](https://t.me/BotFather) on Telegram)
+
+---
+
+## Project Structure
+
+```text
+Study_companion/
+├── .github/
+│   └── workflows/
+│       └── test.yml          # GitHub Actions CI workflow script
+├── tests/
+│   ├── __init__.py           # Package marker
+│   ├── conftest.py           # Shared test fixtures & temp path isolation
+│   ├── test_persistence.py   # Storage load/save & corruption tests
+│   └── test_bot_features.py  # Bot handler unit tests using mock Telegram objects
+├── .env                      # Local environment secrets (ignored by Git)
+├── .env.example              # Environment key template
+├── user_data.json            # Local storage file (ignored by Git)
+├── user_data.example.json    # Initial storage template
+├── main.py                   # Bot startup entrypoint
+├── requirements.txt          # Production runtime dependencies
+├── requirements-dev.txt      # Development & testing dependencies
+└── README.md                 # Project documentation
